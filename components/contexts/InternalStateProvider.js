@@ -18,6 +18,7 @@ export function InternalStateProvider({children}){
     const [isModalOpen,setIsModalOpen] = useState(false)
 
     const [notification,setNotification] = useState(-1);
+    const [visibleBottomSheet,setVisibleBottomSheet] = useState(false)
 
     const values ={
         item,
@@ -25,7 +26,9 @@ export function InternalStateProvider({children}){
         isModalOpen,
         setIsModalOpen,
         notification,
-        setNotification
+        setNotification,
+        visibleBottomSheet,
+        setVisibleBottomSheet
     }
     return(
         <InternalState.Provider value={values}>

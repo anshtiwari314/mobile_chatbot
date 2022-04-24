@@ -24,7 +24,7 @@ export default function FooterInput(){
                     placeholderTextColor={"white"}
                     // keyboardType="numeric"
                 />
-                <Pressable style={styles.FI_button} onPress={()=>{!loading &&  handleSearchQuery(input,allRequests,setAllRequests,setLoading); setInput("")}}>
+                <Pressable style={styles.FI_button} onPress={()=>{!loading &&  handleSearchQuery(input); setInput("")}}>
                     <Image 
                         source={require('../../images/send16x16.png')}
                         style={styles.FI_button_image}
@@ -39,7 +39,7 @@ const styles= StyleSheet.create({
     FI:{
         position:"absolute",
         width:"100%",
-        bottom:5,
+        bottom:2,
         //backgroundColor:"pink"
     },
     container:{

@@ -1,0 +1,1064 @@
+{
+    "id": "8g5RwLiGuvyXtAXoamv4dTB1KEgEo8NW",
+    "lang": "en",
+    "postemailflag": null,
+    "result": {
+        "fulfillment": {
+            "data": {
+                "DownButton": {
+                    "GenerativeQuestion": [
+                        "How to increase my mutual fund investment amount?"
+                    ]
+                },
+                "buyStocks": false,
+                "data": {
+                    "entries": {
+                        "headings": [
+                            "Scheme name",
+                            "1 Y Return % (lumpsum cagr)",
+                            "Category"
+                        ],
+                        "title": "Top funds for investment",
+                        "values": [
+                            [
+                                {
+                                    "hyperlink": "Sbi Equity Hybrid Fund",
+                                    "value": "Sbi Equity Hybrid Fund"
+                                },
+                                {
+                                    "hyperlink": null,
+                                    "value": 19.59
+                                },
+                                {
+                                    "hyperlink": null,
+                                    "value": "Aggressive Hybrid Fund"
+                                }
+                            ],
+                            [
+                                {
+                                    "hyperlink": "Dsp Equity & Bond Fund",
+                                    "value": "Dsp Equity & Bond Fund"
+                                },
+                                {
+                                    "hyperlink": null,
+                                    "value": 14.7
+                                },
+                                {
+                                    "hyperlink": null,
+                                    "value": "Aggressive Hybrid Fund"
+                                }
+                            ],
+                            [
+                                {
+                                    "hyperlink": "Kotak Equity Arbitrage Fund",
+                                    "value": "Kotak Equity Arbitrage Fund"
+                                },
+                                {
+                                    "hyperlink": null,
+                                    "value": 3.95
+                                },
+                                {
+                                    "hyperlink": null,
+                                    "value": "Arbitrage Fund"
+                                }
+                            ],
+                            [
+                                {
+                                    "hyperlink": "Uti Arbitrage Fund",
+                                    "value": "Uti Arbitrage Fund"
+                                },
+                                {
+                                    "hyperlink": null,
+                                    "value": 3.76
+                                },
+                                {
+                                    "hyperlink": null,
+                                    "value": "Arbitrage Fund"
+                                }
+                            ],
+                            [
+                                {
+                                    "hyperlink": "Aditya Birla Sun Life Arbitrage Fund",
+                                    "value": "Aditya Birla Sun Life Arbitrage Fund"
+                                },
+                                {
+                                    "hyperlink": null,
+                                    "value": 3.73
+                                },
+                                {
+                                    "hyperlink": null,
+                                    "value": "Arbitrage Fund"
+                                }
+                            ],
+                            [
+                                {
+                                    "hyperlink": "L&T Arbitrage Opportunities Fund",
+                                    "value": "L&T Arbitrage Opportunities Fund"
+                                },
+                                {
+                                    "hyperlink": null,
+                                    "value": 3.52
+                                },
+                                {
+                                    "hyperlink": null,
+                                    "value": "Arbitrage Fund"
+                                }
+                            ],
+                            [
+                                {
+                                    "hyperlink": "Kotak Banking & Psu Debt Fund",
+                                    "value": "Kotak Banking & Psu Debt Fund"
+                                },
+                                {
+                                    "hyperlink": null,
+                                    "value": 4.16
+                                },
+                                {
+                                    "hyperlink": null,
+                                    "value": "Banking and PSU Debt Fund"
+                                }
+                            ],
+                            [
+                                {
+                                    "hyperlink": "Aditya Birla Sun Life Banking & Psu Debt Fund",
+                                    "value": "Aditya Birla Sun Life Banking & Psu Debt Fund"
+                                },
+                                {
+                                    "hyperlink": null,
+                                    "value": 3.91
+                                },
+                                {
+                                    "hyperlink": null,
+                                    "value": "Banking and PSU Debt Fund"
+                                }
+                            ],
+                            [
+                                {
+                                    "hyperlink": "Nippon India Banking & Psu Debt Fund",
+                                    "value": "Nippon India Banking & Psu Debt Fund"
+                                },
+                                {
+                                    "hyperlink": null,
+                                    "value": 3.62
+                                },
+                                {
+                                    "hyperlink": null,
+                                    "value": "Banking and PSU Debt Fund"
+                                }
+                            ],
+                            [
+                                {
+                                    "hyperlink": "Sbi Debt Hybrid Fund",
+                                    "value": "Sbi Debt Hybrid Fund"
+                                },
+                                {
+                                    "hyperlink": null,
+                                    "value": 10.39
+                                },
+                                {
+                                    "hyperlink": null,
+                                    "value": "Conservative Hybrid Fund"
+                                }
+                            ],
+                            [
+                                {
+                                    "hyperlink": "Aditya Birla Sun Life Corporate Bond Fund",
+                                    "value": "Aditya Birla Sun Life Corporate Bond Fund"
+                                },
+                                {
+                                    "hyperlink": null,
+                                    "value": 4.07
+                                },
+                                {
+                                    "hyperlink": null,
+                                    "value": "Corporate Bond Fund"
+                                }
+                            ],
+                            [
+                                {
+                                    "hyperlink": "Idfc Corporate Bond Fund",
+                                    "value": "Idfc Corporate Bond Fund"
+                                },
+                                {
+                                    "hyperlink": null,
+                                    "value": 3.69
+                                },
+                                {
+                                    "hyperlink": null,
+                                    "value": "Corporate Bond Fund"
+                                }
+                            ],
+                            [
+                                {
+                                    "hyperlink": "Hdfc Corporate Bond Fund",
+                                    "value": "Hdfc Corporate Bond Fund"
+                                },
+                                {
+                                    "hyperlink": null,
+                                    "value": 3.64
+                                },
+                                {
+                                    "hyperlink": null,
+                                    "value": "Corporate Bond Fund"
+                                }
+                            ],
+                            [
+                                {
+                                    "hyperlink": "Icici Prudential Credit Risk Fund",
+                                    "value": "Icici Prudential Credit Risk Fund"
+                                },
+                                {
+                                    "hyperlink": null,
+                                    "value": 6.1
+                                },
+                                {
+                                    "hyperlink": null,
+                                    "value": "Credit Risk Fund"
+                                }
+                            ],
+                            [
+                                {
+                                    "hyperlink": "hdfc credit risk debt fund",
+                                    "value": "hdfc credit risk debt fund"
+                                },
+                                {
+                                    "hyperlink": null,
+                                    "value": 5.71
+                                },
+                                {
+                                    "hyperlink": null,
+                                    "value": "Credit Risk Fund"
+                                }
+                            ],
+                            [
+                                {
+                                    "hyperlink": "Kotak Dynamic Bond Fund",
+                                    "value": "Kotak Dynamic Bond Fund"
+                                },
+                                {
+                                    "hyperlink": null,
+                                    "value": 3.52
+                                },
+                                {
+                                    "hyperlink": null,
+                                    "value": "Dynamic Bond Fund"
+                                }
+                            ],
+                            [
+                                {
+                                    "hyperlink": "Idfc Dynamic Bond Fund",
+                                    "value": "Idfc Dynamic Bond Fund"
+                                },
+                                {
+                                    "hyperlink": null,
+                                    "value": 2.52
+                                },
+                                {
+                                    "hyperlink": null,
+                                    "value": "Dynamic Bond Fund"
+                                }
+                            ],
+                            [
+                                {
+                                    "hyperlink": "Kotak Tax Saver Fund",
+                                    "iswhatsappoption": true,
+                                    "value": "Kotak Tax Saver Fund"
+                                },
+                                {
+                                    "hyperlink": null,
+                                    "value": 25.58
+                                },
+                                {
+                                    "hyperlink": null,
+                                    "value": "Equity Linked Savings Scheme"
+                                }
+                            ],
+                            [
+                                {
+                                    "hyperlink": "Mirae Asset Tax Saver Fund",
+                                    "iswhatsappoption": true,
+                                    "value": "Mirae Asset Tax Saver Fund"
+                                },
+                                {
+                                    "hyperlink": null,
+                                    "value": 23.94
+                                },
+                                {
+                                    "hyperlink": null,
+                                    "value": "Equity Linked Savings Scheme"
+                                }
+                            ],
+                            [
+                                {
+                                    "hyperlink": "Kotak Floating Rate Fund",
+                                    "value": "Kotak Floating Rate Fund"
+                                },
+                                {
+                                    "hyperlink": null,
+                                    "value": 4.72
+                                },
+                                {
+                                    "hyperlink": null,
+                                    "value": "Floater Debt Fund"
+                                }
+                            ],
+                            [
+                                {
+                                    "hyperlink": "Hdfc Floating Rate Debt Fund",
+                                    "value": "Hdfc Floating Rate Debt Fund"
+                                },
+                                {
+                                    "hyperlink": null,
+                                    "value": 4.12
+                                },
+                                {
+                                    "hyperlink": null,
+                                    "value": "Floater Debt Fund"
+                                }
+                            ],
+                            [
+                                {
+                                    "hyperlink": "ICICI Prudential Strategic Metal and Energy Equity FoF",
+                                    "value": "ICICI Prudential Strategic Metal and Energy Equity FoF"
+                                },
+                                {
+                                    "hyperlink": null,
+                                    "value": 0.0
+                                },
+                                {
+                                    "hyperlink": null,
+                                    "value": "Fof Overseas"
+                                }
+                            ],
+                            [
+                                {
+                                    "hyperlink": "Idfc Us Equity Fof",
+                                    "value": "Idfc Us Equity Fof"
+                                },
+                                {
+                                    "hyperlink": null,
+                                    "value": 0.0
+                                },
+                                {
+                                    "hyperlink": null,
+                                    "value": "Fof Overseas"
+                                }
+                            ],
+                            [
+                                {
+                                    "hyperlink": "Idfc Government Securities Fund",
+                                    "value": "Idfc Government Securities Fund"
+                                },
+                                {
+                                    "hyperlink": null,
+                                    "value": 2.82
+                                },
+                                {
+                                    "hyperlink": null,
+                                    "value": "Gilt Fund"
+                                }
+                            ],
+                            [
+                                {
+                                    "hyperlink": "Canara Robeco Emerging Equities Fund",
+                                    "iswhatsappoption": true,
+                                    "value": "Canara Robeco Emerging Equities Fund"
+                                },
+                                {
+                                    "hyperlink": null,
+                                    "value": 26.07
+                                },
+                                {
+                                    "hyperlink": null,
+                                    "value": "Large & Mid Cap Fund"
+                                }
+                            ],
+                            [
+                                {
+                                    "hyperlink": "Mirae Asset Emerging Bluechip Fund",
+                                    "iswhatsappoption": true,
+                                    "value": "Mirae Asset Emerging Bluechip Fund"
+                                },
+                                {
+                                    "hyperlink": null,
+                                    "value": 24.64
+                                },
+                                {
+                                    "hyperlink": null,
+                                    "value": "Large & Mid Cap Fund"
+                                }
+                            ],
+                            [
+                                {
+                                    "hyperlink": "Kotak Equity Opportunities Fund",
+                                    "iswhatsappoption": true,
+                                    "value": "Kotak Equity Opportunities Fund"
+                                },
+                                {
+                                    "hyperlink": null,
+                                    "value": 23.97
+                                },
+                                {
+                                    "hyperlink": null,
+                                    "value": "Large & Mid Cap Fund"
+                                }
+                            ],
+                            [
+                                {
+                                    "hyperlink": "Uti Mastershare Unit Scheme",
+                                    "iswhatsappoption": true,
+                                    "value": "Uti Mastershare Unit Scheme"
+                                },
+                                {
+                                    "hyperlink": null,
+                                    "value": 21.36
+                                },
+                                {
+                                    "hyperlink": null,
+                                    "value": "Large cap fund"
+                                }
+                            ],
+                            [
+                                {
+                                    "hyperlink": "Mirae Asset Large Cap Fund",
+                                    "iswhatsappoption": true,
+                                    "value": "Mirae Asset Large Cap Fund"
+                                },
+                                {
+                                    "hyperlink": null,
+                                    "value": 21.27
+                                },
+                                {
+                                    "hyperlink": null,
+                                    "value": "Large cap fund"
+                                }
+                            ],
+                            [
+                                {
+                                    "hyperlink": "Kotak Bluechip Fund",
+                                    "iswhatsappoption": true,
+                                    "value": "Kotak Bluechip Fund"
+                                },
+                                {
+                                    "hyperlink": null,
+                                    "value": 19.65
+                                },
+                                {
+                                    "hyperlink": null,
+                                    "value": "Large cap fund"
+                                }
+                            ],
+                            [
+                                {
+                                    "hyperlink": "Canara Robeco Blue Chip Equity Fund",
+                                    "iswhatsappoption": true,
+                                    "value": "Canara Robeco Blue Chip Equity Fund"
+                                },
+                                {
+                                    "hyperlink": null,
+                                    "value": 17.55
+                                },
+                                {
+                                    "hyperlink": null,
+                                    "value": "Large cap fund"
+                                }
+                            ],
+                            [
+                                {
+                                    "hyperlink": "Axis Liquid Fund",
+                                    "value": "Axis Liquid Fund"
+                                },
+                                {
+                                    "hyperlink": null,
+                                    "value": 3.42
+                                },
+                                {
+                                    "hyperlink": null,
+                                    "value": "Liquid Fund"
+                                }
+                            ],
+                            [
+                                {
+                                    "hyperlink": "Dsp Liquidity Fund",
+                                    "value": "Dsp Liquidity Fund"
+                                },
+                                {
+                                    "hyperlink": null,
+                                    "value": 3.39
+                                },
+                                {
+                                    "hyperlink": null,
+                                    "value": "Liquid Fund"
+                                }
+                            ],
+                            [
+                                {
+                                    "hyperlink": "Idfc Cash Fund",
+                                    "value": "Idfc Cash Fund"
+                                },
+                                {
+                                    "hyperlink": null,
+                                    "value": 3.38
+                                },
+                                {
+                                    "hyperlink": null,
+                                    "value": "Liquid Fund"
+                                }
+                            ],
+                            [
+                                {
+                                    "hyperlink": "Nippon India Liquid Fund",
+                                    "value": "Nippon India Liquid Fund"
+                                },
+                                {
+                                    "hyperlink": null,
+                                    "value": 3.36
+                                },
+                                {
+                                    "hyperlink": null,
+                                    "value": "Liquid Fund"
+                                }
+                            ],
+                            [
+                                {
+                                    "hyperlink": "Uti Treasury Advantage Fund",
+                                    "value": "Uti Treasury Advantage Fund"
+                                },
+                                {
+                                    "hyperlink": null,
+                                    "value": 8.98
+                                },
+                                {
+                                    "hyperlink": null,
+                                    "value": "Low Duration Debt Fund"
+                                }
+                            ],
+                            [
+                                {
+                                    "hyperlink": "Icici Prudential Savings Fund",
+                                    "value": "Icici Prudential Savings Fund"
+                                },
+                                {
+                                    "hyperlink": null,
+                                    "value": 4.02
+                                },
+                                {
+                                    "hyperlink": null,
+                                    "value": "Low Duration Debt Fund"
+                                }
+                            ],
+                            [
+                                {
+                                    "hyperlink": "Axis Treasury Advantage Fund",
+                                    "value": "Axis Treasury Advantage Fund"
+                                },
+                                {
+                                    "hyperlink": null,
+                                    "value": 3.78
+                                },
+                                {
+                                    "hyperlink": null,
+                                    "value": "Low Duration Debt Fund"
+                                }
+                            ],
+                            [
+                                {
+                                    "hyperlink": "Hdfc Medium Term Debt Fund",
+                                    "value": "Hdfc Medium Term Debt Fund"
+                                },
+                                {
+                                    "hyperlink": null,
+                                    "value": 4.07
+                                },
+                                {
+                                    "hyperlink": null,
+                                    "value": "Medium Duration Debt Fund"
+                                }
+                            ],
+                            [
+                                {
+                                    "hyperlink": "Aditya Birla Sun Life Income Fund",
+                                    "value": "Aditya Birla Sun Life Income Fund"
+                                },
+                                {
+                                    "hyperlink": null,
+                                    "value": 3.67
+                                },
+                                {
+                                    "hyperlink": null,
+                                    "value": "Medium to Long Duration Debt Fund"
+                                }
+                            ],
+                            [
+                                {
+                                    "hyperlink": "Pgim India Midcap Opportunities Fund",
+                                    "value": "Pgim India Midcap Opportunities Fund"
+                                },
+                                {
+                                    "hyperlink": null,
+                                    "value": 38.02
+                                },
+                                {
+                                    "hyperlink": null,
+                                    "value": "Mid cap fund"
+                                }
+                            ],
+                            [
+                                {
+                                    "hyperlink": "Invesco India Midcap Fund",
+                                    "value": "Invesco India Midcap Fund"
+                                },
+                                {
+                                    "hyperlink": null,
+                                    "value": 28.74
+                                },
+                                {
+                                    "hyperlink": null,
+                                    "value": "Mid cap fund"
+                                }
+                            ],
+                            [
+                                {
+                                    "hyperlink": "Axis Midcap Fund",
+                                    "value": "Axis Midcap Fund"
+                                },
+                                {
+                                    "hyperlink": null,
+                                    "value": 26.08
+                                },
+                                {
+                                    "hyperlink": null,
+                                    "value": "Mid cap fund"
+                                }
+                            ],
+                            [
+                                {
+                                    "hyperlink": "Nippon India Money Market Fund",
+                                    "value": "Nippon India Money Market Fund"
+                                },
+                                {
+                                    "hyperlink": null,
+                                    "value": 3.9
+                                },
+                                {
+                                    "hyperlink": null,
+                                    "value": "Money Market Fund"
+                                }
+                            ],
+                            [
+                                {
+                                    "hyperlink": "Uti Money Market Fund",
+                                    "value": "Uti Money Market Fund"
+                                },
+                                {
+                                    "hyperlink": null,
+                                    "value": 3.85
+                                },
+                                {
+                                    "hyperlink": null,
+                                    "value": "Money Market Fund"
+                                }
+                            ],
+                            [
+                                {
+                                    "hyperlink": "axis money market fund",
+                                    "value": "axis money market fund"
+                                },
+                                {
+                                    "hyperlink": null,
+                                    "value": 3.82
+                                },
+                                {
+                                    "hyperlink": null,
+                                    "value": "Money Market Fund"
+                                }
+                            ],
+                            [
+                                {
+                                    "hyperlink": "Pgim India Flexi Cap Fund",
+                                    "iswhatsappoption": true,
+                                    "value": "Pgim India Flexi Cap Fund"
+                                },
+                                {
+                                    "hyperlink": null,
+                                    "value": 27.72
+                                },
+                                {
+                                    "hyperlink": null,
+                                    "value": "Multi cap fund"
+                                }
+                            ],
+                            [
+                                {
+                                    "hyperlink": "Uti Flexi Cap Fund",
+                                    "iswhatsappoption": true,
+                                    "value": "Uti Flexi Cap Fund"
+                                },
+                                {
+                                    "hyperlink": null,
+                                    "value": 18.39
+                                },
+                                {
+                                    "hyperlink": null,
+                                    "value": "Multi cap fund"
+                                }
+                            ],
+                            [
+                                {
+                                    "hyperlink": "Dsp Flexi Cap Fund",
+                                    "iswhatsappoption": true,
+                                    "value": "Dsp Flexi Cap Fund"
+                                },
+                                {
+                                    "hyperlink": null,
+                                    "value": 18.24
+                                },
+                                {
+                                    "hyperlink": null,
+                                    "value": "Multi cap fund"
+                                }
+                            ],
+                            [
+                                {
+                                    "hyperlink": "Sbi Infrastructure Fund",
+                                    "value": "Sbi Infrastructure Fund"
+                                },
+                                {
+                                    "hyperlink": null,
+                                    "value": 34.49
+                                },
+                                {
+                                    "hyperlink": null,
+                                    "value": "Sector fund"
+                                }
+                            ],
+                            [
+                                {
+                                    "hyperlink": "Nippon India Consumption Fund",
+                                    "value": "Nippon India Consumption Fund"
+                                },
+                                {
+                                    "hyperlink": null,
+                                    "value": 29.9
+                                },
+                                {
+                                    "hyperlink": null,
+                                    "value": "Sector fund"
+                                }
+                            ],
+                            [
+                                {
+                                    "hyperlink": "Mirae Asset Healthcare Fund",
+                                    "value": "Mirae Asset Healthcare Fund"
+                                },
+                                {
+                                    "hyperlink": null,
+                                    "value": 15.3
+                                },
+                                {
+                                    "hyperlink": null,
+                                    "value": "Sector fund"
+                                }
+                            ],
+                            [
+                                {
+                                    "hyperlink": "Sbi Banking & Financial Services Fund",
+                                    "value": "Sbi Banking & Financial Services Fund"
+                                },
+                                {
+                                    "hyperlink": null,
+                                    "value": 14.65
+                                },
+                                {
+                                    "hyperlink": null,
+                                    "value": "Sector fund"
+                                }
+                            ],
+                            [
+                                {
+                                    "hyperlink": "Nippon India Pharma Fund",
+                                    "value": "Nippon India Pharma Fund"
+                                },
+                                {
+                                    "hyperlink": null,
+                                    "value": 13.01
+                                },
+                                {
+                                    "hyperlink": null,
+                                    "value": "Sector fund"
+                                }
+                            ],
+                            [
+                                {
+                                    "hyperlink": "Nippon India Short Term Fund",
+                                    "value": "Nippon India Short Term Fund"
+                                },
+                                {
+                                    "hyperlink": null,
+                                    "value": 4.03
+                                },
+                                {
+                                    "hyperlink": null,
+                                    "value": "Short Duration Debt Fund"
+                                }
+                            ],
+                            [
+                                {
+                                    "hyperlink": "Hdfc Short Term Debt Fund",
+                                    "value": "Hdfc Short Term Debt Fund"
+                                },
+                                {
+                                    "hyperlink": null,
+                                    "value": 3.67
+                                },
+                                {
+                                    "hyperlink": null,
+                                    "value": "Short Duration Debt Fund"
+                                }
+                            ],
+                            [
+                                {
+                                    "hyperlink": "L&T Short Term Bond Fund",
+                                    "value": "L&T Short Term Bond Fund"
+                                },
+                                {
+                                    "hyperlink": null,
+                                    "value": 3.25
+                                },
+                                {
+                                    "hyperlink": null,
+                                    "value": "Short Duration Debt Fund"
+                                }
+                            ],
+                            [
+                                {
+                                    "hyperlink": "Nippon India Small Cap Fund",
+                                    "value": "Nippon India Small Cap Fund"
+                                },
+                                {
+                                    "hyperlink": null,
+                                    "value": 50.34
+                                },
+                                {
+                                    "hyperlink": null,
+                                    "value": "Small cap fund"
+                                }
+                            ],
+                            [
+                                {
+                                    "hyperlink": "Axis Small Cap Fund",
+                                    "value": "Axis Small Cap Fund"
+                                },
+                                {
+                                    "hyperlink": null,
+                                    "value": 41.05
+                                },
+                                {
+                                    "hyperlink": null,
+                                    "value": "Small cap fund"
+                                }
+                            ],
+                            [
+                                {
+                                    "hyperlink": "Kotak Small Cap Fund",
+                                    "value": "Kotak Small Cap Fund"
+                                },
+                                {
+                                    "hyperlink": null,
+                                    "value": 40.95
+                                },
+                                {
+                                    "hyperlink": null,
+                                    "value": "Small cap fund"
+                                }
+                            ],
+                            [
+                                {
+                                    "hyperlink": "Sbi Contra Fund",
+                                    "value": "Sbi Contra Fund"
+                                },
+                                {
+                                    "hyperlink": null,
+                                    "value": 37.89
+                                },
+                                {
+                                    "hyperlink": null,
+                                    "value": "Thematic Fund"
+                                }
+                            ],
+                            [
+                                {
+                                    "hyperlink": "aditya birla sun life digital india fund",
+                                    "value": "aditya birla sun life digital india fund"
+                                },
+                                {
+                                    "hyperlink": null,
+                                    "value": 34.59
+                                },
+                                {
+                                    "hyperlink": null,
+                                    "value": "Thematic Fund"
+                                }
+                            ],
+                            [
+                                {
+                                    "hyperlink": "Aditya Birla Sun Life India Gennext Fund",
+                                    "value": "Aditya Birla Sun Life India Gennext Fund"
+                                },
+                                {
+                                    "hyperlink": null,
+                                    "value": 24.32
+                                },
+                                {
+                                    "hyperlink": null,
+                                    "value": "Thematic Fund"
+                                }
+                            ],
+                            [
+                                {
+                                    "hyperlink": "Hdfc Ultra Short Term Fund",
+                                    "value": "Hdfc Ultra Short Term Fund"
+                                },
+                                {
+                                    "hyperlink": null,
+                                    "value": 3.59
+                                },
+                                {
+                                    "hyperlink": null,
+                                    "value": "Ultra Short Duration Debt Fund"
+                                }
+                            ],
+                            [
+                                {
+                                    "hyperlink": "Sbi Magnum Ultra Short Duration Fund",
+                                    "value": "Sbi Magnum Ultra Short Duration Fund"
+                                },
+                                {
+                                    "hyperlink": null,
+                                    "value": 3.52
+                                },
+                                {
+                                    "hyperlink": null,
+                                    "value": "Ultra Short Duration Debt Fund"
+                                }
+                            ],
+                            [
+                                {
+                                    "hyperlink": "L&T Ultra Short Term Fund",
+                                    "value": "L&T Ultra Short Term Fund"
+                                },
+                                {
+                                    "hyperlink": null,
+                                    "value": 3.49
+                                },
+                                {
+                                    "hyperlink": null,
+                                    "value": "Ultra Short Duration Debt Fund"
+                                }
+                            ],
+                            [
+                                {
+                                    "hyperlink": "Idfc Sterling Value Fund",
+                                    "value": "Idfc Sterling Value Fund"
+                                },
+                                {
+                                    "hyperlink": null,
+                                    "value": 40.9
+                                },
+                                {
+                                    "hyperlink": null,
+                                    "value": "Value Fund"
+                                }
+                            ],
+                            [
+                                {
+                                    "hyperlink": "Icici Prudential Value Discovery Fund",
+                                    "value": "Icici Prudential Value Discovery Fund"
+                                },
+                                {
+                                    "hyperlink": null,
+                                    "value": 35.8
+                                },
+                                {
+                                    "hyperlink": null,
+                                    "value": "Value Fund"
+                                }
+                            ]
+                        ]
+                    }
+                },
+                "table": "down",
+                "type": "card"
+            },
+            "messages": [
+                {
+                    "speech": [
+                        ""
+                    ],
+                    "type": 0
+                },
+                {
+                    "order": "first",
+                    "origin": "df",
+                    "speech": [
+                        "That is an interesting need. Before starting to invest, you must ponder over the objective of investing. The goals, the time frame, the risk you are willing to stomach, etc. "
+                    ],
+                    "type": 0
+                },
+                {
+                    "order": "first",
+                    "origin": "df",
+                    "speech": [
+                        "Once this is done... Let us look at the favourite way of investing in our country... Mutual funds."
+                    ],
+                    "type": 0
+                },
+                {
+                    "order": "first",
+                    "origin": "df",
+                    "speech": [
+                        "Mutual funds are instruments where money from many investors like you are pooled together and managed by a qualified team of people led by a Fund Manager. They study markets, the economy, the choices of stocks and then curate a portfolio. As a customer, you get to buy into the portfolio made by experts."
+                    ],
+                    "type": 0
+                },
+                {
+                    "order": "first",
+                    "origin": "df",
+                    "speech": [
+                        "Mutual Funds in India are regulated by SEBI. They are categorised into various formats including depending on the size of the companies whose stocks they buy, themes that they buy or decide not to, the objective for which they buy, etc."
+                    ],
+                    "type": 0
+                },
+                {
+                    "order": "first",
+                    "origin": "df",
+                    "speech": [
+                        "Mutual funds are subject to market risks. Please read the document attached to each fund on our portal to understand all of them."
+                    ],
+                    "type": 0
+                }
+            ],
+            "speech": ""
+        },
+        "metadata": {
+            "context": [],
+            "intentId": "asktoinvest",
+            "intentName": "asktoinvest",
+            "webhookForSlotFillingUsed": false,
+            "webhookResponseTime": 1.0,
+            "webhookUsed": true
+        },
+        "parameters": {
+            "activity": [
+                "help",
+                "invest"
+            ]
+        },
+        "resolvedQuery": "help me invest"
+    },
+    "sessionId": "8g5RwLiGuvyXtAXoamv4dTB1KEgEo8NW",
+    "status": {
+        "code": 200,
+        "errorType": "success"
+    }
+}

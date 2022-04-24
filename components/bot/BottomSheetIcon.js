@@ -1,36 +1,18 @@
 import React,{useState} from 'react' 
 import {View,Text,StyleSheet,Pressable,Image} from 'react-native'
 import { useApiData } from '../contexts/ApiDataProvider'
+import { useInternalState } from '../contexts/InternalStateProvider'
+import BottomSheet from './BottomSheet'
 
-export function BottomSheet(){
 
-    const {handleSearchQuery,allRequests,setAllRequests,loading,setLoading} = useApiData()
-    const {generativeQn} = useApiData()
 
-    return (
-        //BS => Bottom sheet
-    <View style={styles.BS}>
-        {generativeQn && generativeQn.map((m,i)=>{
-            return <View key={i} style={styles.BS_item}>
-                        <Pressable style={styles.BS_item_button} onPress={!loading && handleSearchQuery(m.query,allRequests,setAllRequests,setLoading)}>
-                            <Text style={styles.BS_item_button_text}>{m}</Text>
-                        </Pressable>
-                    </View>
-            })}
-        </View>
-    )
-}
 export default function BottomSheetIcon(){
 
-    const {generativeQn} = useApiData()
-    //console.log(generativeQn)
     // BSB => Bottom sheet Icon
-    const [visibleBottomSheet,setVisibleBottomSheet] = useState(false)
+    const {setVisibleBottomSheet} = useInternalState()
+    
     return (
         <>
-        {visibleBottomSheet && generativeQn && <BottomSheet/>}
-        
-        
         <View style={styles.BSI}>
             <Pressable style={styles.BSI_button} onPress={()=>setVisibleBottomSheet(prev=>!prev)}>
                 <Image 

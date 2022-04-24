@@ -4,45 +4,48 @@ import React,{useState,useEffect} from 'react'
 export default function TextMsg ({data}){
 
 
-  // const [checkUrlExist,setCheckUrlExist] = useState(false)
-  // const [urlMsg,setUrlMsg] = useState({mainText:"",string:"",link:""})
+  const [checkUrlExist,setCheckUrlExist] = useState(false)
+  const [urlMsg,setUrlMsg] = useState({mainText:"",string:"",link:""})
     
-  //   useEffect(() => {
-	// 	var i1 = data.indexOf('<')
+    useEffect(() => {
 
-	// 	var i2 = data.indexOf('<', i1 + 1)
+      function urlFinder(){
+        var i1 = data.indexOf('<')
 
-	// 	if (i1 !== -1 && i2 !== -1 && i2 - i1 === 1) {
+        var i2 = data.indexOf('<', i1 + 1)
 
-	// 		var index = query.indexOf(":", i2 + 1)
-	// 		var index2 = query.indexOf(">", index)
+        if (i1 !== -1 && i2 !== -1 && i2 - i1 === 1) {
 
-	// 		setUrlMsg({
-	// 			mainText: "" + data.substring(0, i1),
-	// 			string: "" + data.substring(i2 + 1, index),
-	// 			link: "" + data.substring(index + 1, index2)
-	// 		})
+          var index = data.indexOf(":", i2 + 1)
+          var index2 = data.indexOf(">", index)
 
-	// 		setCheckUrlExist(true)
+          setUrlMsg({
+            mainText: "" + data.substring(0, i1),
+            string: "" + data.substring(i2 + 1, index),
+            link: "" + data.substring(index + 1, index2)
+          })
 
-	// 	}
-	// }, [])
-  // console.log(urlMsg)
+          setCheckUrlExist(true)
 
-  // return (
-  //   <>    {
-  //     checkUrlExist ? 
-  //       <View style={styles.TM}> 
-  //         <Text style={styles.TM_TEXT}>{urlMsg.mainText} {urlMsg.string}</Text> 
-  //         <Text style={styles.TM_link}>{urlMsg.link}</Text>
-  //       </View>  
-  //       : <Text style={styles.TM_text}>{data}</Text>
-  //   }
-  //   </>
+		      }
+      }
 
-  // )
+		data && urlFinder()
+	}, [data])
+
+  checkUrlExist && console.log(urlMsg)
+
   return (
-    <Text style={styles.TM_text}>{data}</Text>
+      <View>
+            {checkUrlExist ? 
+            <>
+              <Text style={styles.TM_text}>{urlMsg?.mainText} {urlMsg?.string}</Text> 
+              <Text style={styles.TM_link}>{urlMsg.link}</Text>
+            </> 
+            : 
+            <Text style={styles.TM_text}>{data}</Text>
+            }
+      </View>
   )
 }
 

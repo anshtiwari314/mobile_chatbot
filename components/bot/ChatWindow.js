@@ -13,12 +13,12 @@ import { useInternalState } from '../contexts/InternalStateProvider'
 import { startTime } from '../utils/function'
 import {ImageMsg} from './ImageMsg'
 import { useApiData } from '../contexts/ApiDataProvider'
-
+import BottomSheet from './BottomSheet'
 
 export default function ChatWindow(){
 
     const {allRequests,error,setError} = useApiData()
-
+    const {visibleBottomSheet} = useInternalState()
    
     return (
         <>
@@ -26,7 +26,7 @@ export default function ChatWindow(){
             
             {/* <ReceivingMessage Component={Text} data={"Hello Guest, can I help you by finding your product of interest?"}/> */}
             
-            <ScrollView>
+            <ScrollView >
              {allRequests && allRequests.map((m,i)=>{
                 if(m.query !==""){
                     if(m.type == "receive" )
@@ -47,8 +47,10 @@ export default function ChatWindow(){
             </ScrollView>
 
             <ResponseButtons/>
+
+            {visibleBottomSheet && <BottomSheet/>}
             <BottomSheetIcon/>
-            <FooterInput/>
+            <FooterInput/> 
             
         </>
          

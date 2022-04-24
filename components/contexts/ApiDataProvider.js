@@ -40,7 +40,7 @@ export function ApiDataProvider({children}){
 
          axios.post(`https://abwm.vitt.ai/`,request).then((response)=>{
                
-              handleResponse(response,allRequests,conversationId,setGenerativeQn)
+              handleResponse(response,allRequests,setAllRequests,conversationId,setGenerativeQn)
                 
            }).catch((err)=>{
                
@@ -71,8 +71,10 @@ export function ApiDataProvider({children}){
         setAllRequests([...allRequests,errMsg])
     }
     
-    function handleResponse(response,allRequests,conversationId,setGenerativeQn,request){
+    function handleResponse(response,allRequests,setAllRequests,conversationId,setGenerativeQn,request){
                 
+        console.log("control is inside",request)
+
         let ALL_REQUESTS = [];
         let RESPONSE_BUTTON = [];
         let ACTION_TEXT = [];
@@ -109,7 +111,7 @@ export function ApiDataProvider({children}){
          if (isTablePresent && tablePosition) {
              ALL_REQUESTS.push(tableData)
          }
-    
+         
          let trial = []
          response.data.result.fulfillment.data.DownButton.GenerativeQuestion.map((m,i)=>{
              if (trial.length <10) trial.push(m);
@@ -184,9 +186,10 @@ export function ApiDataProvider({children}){
        
      }
     
-    function handleSearchQuery(input,allRequests,setAllRequests,setLoading){
+    function handleSearchQuery(input){
         setLoading(true)
-    
+        
+
         let request = {
                 conversationId: conversationId,
                 count: allRequests.length,
@@ -197,16 +200,22 @@ export function ApiDataProvider({children}){
                 type: "sent"
             }  
         // push request to allRequest array
-            setAllRequests([...allRequests,request])
+          setAllRequests([...allRequests,request])
         
         //only run the handle Response if input state is available 
-        input && axios.post(`https://abwm.vitt.ai/`,request).then((response)=>{
-    
-             handleResponse(response,allRequests,conversationId,setGenerativeQn,request) 
+
+            request.query && axios.post(`https://abwm.vitt.ai/`,request).then((response)=>{
             
+                console.log("control is finished execution",request)
+             handleResponse(response,allRequests,setAllRequests,conversationId,setGenerativeQn,request) 
+             
+
            }).catch((err)=>{
+
                 handleRequestError(err)
+
            })
+    
            //request.count++;
     
         setLoading(false)
