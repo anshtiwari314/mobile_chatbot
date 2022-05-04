@@ -1,21 +1,13 @@
 
-import React from 'react'
-// import DrawerComponent from './components/drawer/DrawerComponent';
-import {InternalStateProvider} from './components/contexts/InternalStateProvider'
-import { ApiDataProvider } from './components/contexts/ApiDataProvider';
-import Bot from './components/bot/Bot'
-
-import {Text} from 'react-native'
+import React, { useState } from 'react'
+import VittBot from './library';
 
 
 function App(){
+  const [open,setOpen] = useState(true)
 
   return (
-    <InternalStateProvider>
-      <ApiDataProvider>
-          <Bot/>
-      </ApiDataProvider> 
-    </InternalStateProvider>
+    <VittBot showChatWindow={open} setShowChatWindow={setOpen} />
    
   );
 };
