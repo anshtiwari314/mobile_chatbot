@@ -1,0 +1,98 @@
+{
+  "id":"yolo",
+  "lang":"en",
+  "postemailflag":null,
+  "result":
+  {
+    "fulfillment":
+    {
+      "data":
+      {
+        "DownButton":
+        {
+          "GenerativeQuestion":[]
+        },
+        "addtoentity":["mfname",["axis liquid fund"]],
+        "buyStocks":false,
+        "data":
+        {
+          "entries":
+          {
+            "headings":["Attribute","Value"],
+            "title":"Axis Liquid Fund",
+            "values":
+            [
+              [
+                {"hyperlink":null,"value":"NAV (in Rs.)"},
+                {"hyperlink":null,"value":"2360.7"}
+              ],
+              [
+                {"hyperlink":null,"value":"NAV Record Date"},
+                {"hyperlink":null,"value":"19/05/2022"}
+              ],
+              [
+                {"hyperlink":null,"value":"Option"},
+                {"hyperlink":null,"value":"Growth"}
+              ],
+              [
+                {"hyperlink":null,"value":"AUM (in Crore Rs.)"},
+                {"hyperlink":null,"value":"28933.73"}
+              ],
+              [
+                {"hyperlink":null,"value":"1 M Return % (lumpsum cagr)"},
+                {"hyperlink":null,"value":"0.26 %"}
+              ],
+              [
+                {"hyperlink":null,"value":"3 M Return % (lumpsum cagr)"},
+                {"hyperlink":null,"value":"0.86 %"}
+              ],
+              [
+                {"hyperlink":null,"value":"1 Y Return % (lumpsum cagr)"},
+                {"hyperlink":null,"value":"3.44 %"}
+              ],
+              [
+                {"hyperlink":null,"value":"5 Y Return % (lumpsum cagr)"},
+                {"hyperlink":null,"value":"6.03 %"}
+              ],
+              [
+                {"hyperlink":null,"value":"Risk Grade"},
+                {"hyperlink":null,"value":"Low to Moderate"}
+              ],
+              [
+                {"hyperlink":null,"value":"Category"},
+                {"hyperlink":null,"value":"Liquid Fund"}
+              ],
+              [
+                {"hyperlink":null,"value":"Launch Date"},
+                {"hyperlink":null,"value":"08/10/2009"}
+              ],
+              [
+                {"hyperlink":null,"value":"Minimum Investment (in Rs.)"},
+                {"hyperlink":null,"value":"500.0"}
+              ]
+            ]
+          }
+        },
+        "table":"down","type":"card"
+      },
+      "messages":
+      [
+        {
+          "order":"first",
+          "origin":"df",
+          "speech":["Here is the information that you requested:"],"type":0
+        },
+        {
+          "order":"first",
+          "origin":"df",
+          "speech":["Axis Liquid Fund is one of the Core funds in the category - Liquid Fund. Our key factors for analysis to qualify as a Core fund include items like quality of underlying stocks, consistency of return, the unit risk taken for delivering unit returns etc. To invest into this fund, please click on the Invest Now tab on the left hand side menu bar (after logging in)."],"type":0
+        },
+        {
+          "replies":["Invest Now"],
+          "type":5,
+          "urls":["https://vitt.ai/abwm_interjector?url=https%3A%2F%2Fwealth.adityabirlacapital.com%2Fmf-transaction%2FOrderIntermediate&schemeid=8029&schemecode=&sessionid=yolo"]
+        }
+      ],
+      "speech":""
+    },
+    "metadata":{"context":[],"intentId":"mfspecific","intentName":"mfspecific","webhookForSlotFillingUsed":false,"webhookResponseTime":1.0,"webhookUsed":true},"parameters":{"mfname":["axis liquid fund","axis liquid fund"]},"resolvedQuery":"axis liquid fund"},"sessionId":"yolo","status":{"code":200,"errorType":"success"}}
